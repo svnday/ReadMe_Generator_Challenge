@@ -62,6 +62,7 @@ ${data.installation}
 Instructions for use: ${data.usage}
 
 # License
+This project leverages the ${data.chosenLicense} license.
 ${renderLicenseBadge.generatedLicense}
 
 # Contributors
