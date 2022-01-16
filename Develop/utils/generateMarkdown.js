@@ -56,8 +56,10 @@ ${data.installation}
 Instructions for use: ${data.usage}
 
 # License
-This project leverages the following license.
+This project leverages the following license:
 ${renderLicenseBadge(data.chosenLicense)}
+
+Licence badges provided by [Shields.io](http://shields.io/)
 
 # Contributors
 ${data.contributors}
