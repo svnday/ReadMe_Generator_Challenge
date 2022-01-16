@@ -1,4 +1,4 @@
-// TODO: Include packages needed for this application
+//Include packages needed for this application
 const inquirer = require('inquirer');
 const fs = require('fs');
 const utils = require('utils');
@@ -52,9 +52,10 @@ const questions = () => {
             }
         },
         {
-            type: 'input',
+            type: 'checkbox',
             name: 'license',
-            message: 'What licenses are being used?'
+            message: 'What licenses are being used?',
+            choices: ['Apache 2.0', 'Boost', 'Eclipse', 'GNU', 'The Hippocratic License', 'IBM', 'ISC', 'MIT', 'Mozilla', 'Open Database License', 'Perl']
         },
         {
             type: 'input',
@@ -109,10 +110,10 @@ const questions = () => {
 };
 
 
-// TODO: Create a function to write README file
+//Create a function to write README file
 function writeToFile(fileName, data) {}
 
-// TODO: Create a function to initialize app
+//Create a function to initialize app
 const init = () => {
 };
 
