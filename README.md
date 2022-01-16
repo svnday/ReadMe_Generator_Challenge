@@ -6,8 +6,6 @@ This program was made for the Module 09: Node.js challenge for my bootcamp. When
 To install this program, please install the following dependencies and follow these instructions:
 You can download this program and navigate to the ./develop/ directory to find index.js. In terminal, run the command "node index.js" to begin.
 
-## Requirements 
-
 # User story:  
 AS A developer  
 I WANT a README generator  
