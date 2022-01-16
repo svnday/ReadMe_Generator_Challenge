@@ -68,8 +68,8 @@ const questions = () => {
         },
         {
             type: 'input',
-            name: 'inquiries',
-            message: 'Contact info for inquiries. (Required)',
+            name: 'questions',
+            message: 'Contact info for questions. (Required)',
             validate: inquiriesInput => {
                 if (inquiriesInput) {
                     return true;

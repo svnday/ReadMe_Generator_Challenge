@@ -46,7 +46,7 @@ ${data.Description}
 * [License](#license)
 * [Contributors](#Contributors)
 * [Tests](#tests)
-* [Inquiries](#inquiries)
+* [Questions](#questions)
 
 # Installation
 To install this program, please install the following dependencies and follow these instructions:
@@ -68,7 +68,7 @@ ${data.contributors}
 To test this program:
 ${data.tests}
 
-# Inquiries
+# Questions
 If you would like to make an inquiry or if you have questions, please contact ${data.username} via email at ${data.email}.
 
 
