@@ -53,7 +53,7 @@ const questions = () => {
         {
             type: 'list',
             name: 'chosenLicense',
-            message: 'What license is being used? If not using a license, do not select one.',
+            message: 'What license is being used? If not using a license, select "None".',
             choices: ['None','Apache 2.0', 'Boost', 'Eclipse', 'GNU', 'The Hippocratic License', 'IBM', 'ISC', 'MIT', 'Mozilla', 'Open Database License', 'Perl']
         },
         {
